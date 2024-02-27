@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d54347b18c5249cb86eea308ae8f50ca" Name="Diagram1">
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Category" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Manufacturer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Order" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Point" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Provider" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Role" Width="1.5" PointX="5.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Status" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.Unit" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPavelFlowerModel.User" Width="1.5" PointX="8" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Order_Point" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Product_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPavelFlowerModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
